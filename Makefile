@@ -21,12 +21,13 @@ EXTENSION 	= c
 INCS_DIR	= includes
 SRCS_DIR	= sources
 OBJS_DIR	= objects
-LIB_DIR		= librairies
+LIBS_DIR	= librairies
 INSTALL_DIR	= /usr/bin
 
 # Flags.
 
-CFLAGS		+= -I $(INCS_DIR)
+CFLAGS		+= -I $(INCS_DIR) # compilation
+LFLAGS		+= # linkage
 
 ##
 ## Common variables.
